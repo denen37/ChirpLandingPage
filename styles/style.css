@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+body>* {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-color: #fbf8f3;
+    display: flex;
+    gap: 80px
+}
+
+.hero-section .hero-content {
+    flex: 1;
+    padding-top: 50px
+}
+
+.hero-content .header {
+    font-size: 50px;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #595959;
+}
+
+.hero-container .hero-image {
+    width: 450px;
+}
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbf8f3;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-style: italic;
+    color: #3180f5
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #595959;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.signin-btn {
+    background-color: #1da1f2;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-container a {
+    text-decoration: none;
+}
+
+.learn-btn {
+    color: #1f7898;
+    font-weight: bold;
+}
+
+.user-image-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.user-image-container img {
+    margin-left: -25px;
+}
+
+img.first-image {
+    margin: 0;
+}
+
+.navyblue {
+    color: #1f7898;
+    font-weight: bold;
+}
+
+.features-section {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.features-container .card {
+    border: 1px solid lightgray;
+    padding: 10px 12px
+}
+
+.card-image-container {
+    margin-bottom: 5px;
+}
+
+.card .card-image {
+    width: 30px;
+}
+
+.card .card-body {
+    margin-top: 20px
+}
